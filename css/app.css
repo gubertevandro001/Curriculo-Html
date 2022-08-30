@@ -78,9 +78,8 @@ section {
 }
 
 .separated-article {
-    width: 800px;
     column-gap: 3em;
-    columns: 2;
+    display: flex;
 }
 
 .skills-article {
@@ -155,7 +154,6 @@ textarea:focus {
         display: flex;
     }
     .separated-article {
-        width: 600px;
         display: flex;
         column-gap: 3em;
     }
@@ -188,7 +186,6 @@ textarea:focus {
         display: flex;
     }
     .separated-article {
-        width: 500px;
         display: flex;
         column-gap: 3em;
     }
@@ -237,7 +234,6 @@ textarea:focus {
         margin-left: 25%;
     }
     .separated-article {
-        width: 500px;
         display: contents;
         column-gap: 3em;
     }  
@@ -277,7 +273,6 @@ textarea:focus {
         margin-left: 25%;
     }
     .separated-article {
-        width: 500px;
         display: contents;
         column-gap: 3em;
     }  
@@ -314,7 +309,6 @@ textarea:focus {
         margin-right: 50%;
     }
     .separated-article {
-        width: 500px;
         display: contents;
         column-gap: 3em;
     }
